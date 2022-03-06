@@ -1,0 +1,54 @@
+body{
+    background-color: #0fcf90;
+}
+h1{
+    color: #b9105e
+}
+h2{
+    color: orange;
+}
+li{
+    color: #0909af;  
+}
+p{
+    background-color: yellow;
+}
+input{
+    border: 3px solid red;
+}
+.hello{
+    background-color: white
+}
+#special{
+    border: 2px solid #0909af;
+}
+div p{
+    font-size: 25px;
+}
+input[type="text"]{
+    background-color: gray;
+}
+div:nth-of-type(3) p{
+    background-color: pink;
+    border: 3px solid white;
+}
+div:nth-of-type(3) em{
+    font: 20px ;
+    color: white;
+}
+input:checked{
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+#special:first-letter{
+    font-size: 100px;
+    color:green;
+  }
+  h1:hover{
+      color: #0909af;
+  }
+  a:visited {
+    color: gray;
+  }
